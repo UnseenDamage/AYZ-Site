@@ -1,3 +1,3 @@
 # AYZ-Site
 
-(https://www.ayz.com.tr)
+https://www.ayz.com.tr
