@@ -87,21 +87,31 @@ h2 {
     opacity: 0;
 }
 
-.images {
-    width: 40%;
-    display: inline-block;
-    margin: 2em 4em 0 4em;
+.referances {
+    grid-template-columns: repeat(2, auto);
 
-    img {
-        width: 100%;
+    .images {
+        width: 40%;
+        height: 30vh;
+        display: grid;
+        margin: 2em 4em;
+
+        img {
+            width: 100%;
+
+        }
+    }
+
+    .paragraf {
+        width: 40%;
+        height: 30vh;
+        display: grid;
+        margin: 2em 4em;
+
     }
 }
 
-.referances {
-    width: 40%;
-    display: inline-block;
-    margin: 2em 4em 0 4em;
-}
+
 
 .open-nav {
     transform: translateX(0%);

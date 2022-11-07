@@ -75,19 +75,23 @@ h2 {
   opacity: 0;
 }
 
-.images {
-  width: 40%;
-  display: inline-block;
-  margin: 2em 4em 0 4em;
+.referances {
+  grid-template-columns: repeat(2, auto);
 }
-.images img {
+.referances .images {
+  width: 40%;
+  height: 30vh;
+  display: grid;
+  margin: 2em 4em;
+}
+.referances .images img {
   width: 100%;
 }
-
-.referances {
+.referances .paragraf {
   width: 40%;
-  display: inline-block;
-  margin: 2em 4em 0 4em;
+  height: 30vh;
+  display: grid;
+  margin: 2em 4em;
 }
 
 .open-nav {
