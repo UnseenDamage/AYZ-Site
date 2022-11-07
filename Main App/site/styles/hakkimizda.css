@@ -76,8 +76,8 @@ header svg {
   opacity: 0;
 }
 .hak_paragraf p {
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
+  -webkit-animation: moveUp 1s ease-in-out forwards;
+          animation: moveUp 1s ease-in-out forwards;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   opacity: 0;
@@ -194,6 +194,24 @@ header svg {
 @keyframes moveDown {
   from {
     transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes moveUp {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes moveUp {
+  from {
+    transform: translateY(50px);
   }
   to {
     transform: translateY(0);

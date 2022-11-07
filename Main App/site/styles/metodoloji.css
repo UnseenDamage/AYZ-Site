@@ -262,4 +262,22 @@ footer ul {
     transform: translateY(0);
     opacity: 1;
   }
+}
+@-webkit-keyframes moveUp {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes moveUp {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=metodoloji.css.map */

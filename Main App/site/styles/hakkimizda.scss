@@ -91,7 +91,7 @@ header {
     }
 
     p {
-        animation: moveDown 1s ease-in-out forwards;
+        animation: moveUp 1s ease-in-out forwards;
         animation-delay: 2s;
         opacity: 0;
     }
@@ -202,6 +202,17 @@ header {
 @keyframes moveDown {
     from {
         transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    from {
+        transform: translateY(50px);
     }
 
     to {
