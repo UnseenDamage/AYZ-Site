@@ -87,33 +87,20 @@ h2 {
     opacity: 0;
 }
 
-section {
+.images {
+    width: 40%;
+    display: inline-block;
+    margin: 2em 4em 0 4em;
 
-    p {
-        padding-left: 3em;
-        animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 1s;
-        opacity: 0;
+    img {
+        width: 100%;
     }
+}
 
-    ol {
-        list-style-type: lower-latin;
-        animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 2s;
-        opacity: 0;
-    }
-
-
-
-    .alt-bilgi {
-        font-size: .8rem;
-        font-weight: bold;
-        padding-left: 8em;
-        animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 2s;
-        opacity: 0;
-
-    }
+.referances {
+    width: 40%;
+    display: inline-block;
+    margin: 2em 4em 0 4em;
 }
 
 .open-nav {

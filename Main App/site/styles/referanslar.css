@@ -75,31 +75,19 @@ h2 {
   opacity: 0;
 }
 
-section p {
-  padding-left: 3em;
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  opacity: 0;
+.images {
+  width: 40%;
+  display: inline-block;
+  margin: 2em 4em 0 4em;
 }
-section ol {
-  list-style-type: lower-latin;
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  opacity: 0;
+.images img {
+  width: 100%;
 }
-section .alt-bilgi {
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding-left: 8em;
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  opacity: 0;
+
+.referances {
+  width: 40%;
+  display: inline-block;
+  margin: 2em 4em 0 4em;
 }
 
 .open-nav {
