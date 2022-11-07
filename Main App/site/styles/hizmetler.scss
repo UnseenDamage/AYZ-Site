@@ -82,7 +82,7 @@ header {
 .hiz_paragraf {
     p {
         animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 1s;
+        animation-delay: 0.5s;
         opacity: 0;
     }
 }
@@ -91,7 +91,7 @@ h2 {
     font-size: 2rem;
     color: var(--darkblue);
     animation: moveDown 1s ease-in-out forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     opacity: 0;
 }
 
@@ -108,7 +108,7 @@ section {
     p {
         padding-left: 3em;
         animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 2s;
+        animation-delay: 1.5s;
         opacity: 0;
     }
 
@@ -118,7 +118,7 @@ section {
         padding-left: 8em;
         color: var();
         animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 3s;
+        animation-delay: 2s;
         opacity: 0;
     }
 }
