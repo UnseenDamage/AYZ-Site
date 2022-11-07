@@ -92,14 +92,14 @@ section {
     p {
         padding-left: 3em;
         animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 1s;
+        animation-delay: 0.5s;
         opacity: 0;
     }
 
     ol {
         list-style-type: lower-latin;
         animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 2s;
+        animation-delay: 1s;
         opacity: 0;
     }
 
@@ -110,7 +110,7 @@ section {
         font-weight: bold;
         padding-left: 8em;
         animation: moveDown 1s ease-in-out forwards;
-        animation-delay: 2s;
+        animation-delay: 1s;
         opacity: 0;
 
     }
