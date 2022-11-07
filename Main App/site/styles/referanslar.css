@@ -8,27 +8,12 @@
 body {
   margin: 1.5em;
   font-family: "Poppins", sans-serif;
-  background-color: #e1f1ed;
+  background-color: #E1F1ED;
 }
 
 a {
   text-decoration: none;
   font-size: 1.2rem;
-}
-
-.hero-img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: url("/assets/images/main-img03.jpg");
-  background-position-x: 40%;
-  background-position-y: 60%;
-  width: 100%;
-  height: 40vh;
-  z-index: -1;
-  transition: transform 0.5s ease-in-out;
-  -webkit-animation: introLoad 2s forwards;
-          animation: introLoad 2s forwards;
 }
 
 .company-logo {
@@ -81,80 +66,40 @@ header svg {
   cursor: pointer;
 }
 
-.as_iletisim {
-  background: var(--blue);
-  color: var(--white);
-  padding: 0.6em 1.3em;
-  font-size: 1.4em;
-  border-radius: 5em;
-  font-weight: bold;
-  display: inline-block;
-  margin-left: 4em;
-}
-.as_iletisim:hover {
-  background: var(--white);
-  color: var(--blue);
-}
-.as_iletisim:active {
-  background: var(--darkblue);
-  color: var(--white);
-}
-
-h1 {
-  font-size: 3rem;
+h2 {
+  font-size: 2rem;
   margin-top: 1em;
-  line-height: 3.3rem;
-}
-
-section.hero {
-  height: 90vh;
-}
-section.hero h1 {
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
-  opacity: 0;
-}
-section.hero p {
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
-  opacity: 0;
-}
-section.hero a {
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
-  opacity: 0;
-}
-section.hero .down-arrow {
-  position: absolute;
-  bottom: 3em;
-  right: 2em;
-  width: 1.5em;
-  cursor: pointer;
-  animation: moveArrow 1s alternate-reverse infinite;
-  scroll-behavior: smooth;
-}
-
-.more-info img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 11em;
-}
-.more-info .title {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-.more-info a {
-  text-decoration: none;
   color: var(--darkblue);
-  padding: 0;
+  -webkit-animation: moveDown 1s ease-in-out forwards;
+          animation: moveDown 1s ease-in-out forwards;
+  opacity: 0;
 }
-.more-info ul {
-  list-style-type: none;
-  padding: 0;
+
+section p {
+  padding-left: 3em;
+  -webkit-animation: moveDown 1s ease-in-out forwards;
+          animation: moveDown 1s ease-in-out forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  opacity: 0;
 }
-.more-info .desc {
-  line-height: 1.5rem;
+section ol {
+  list-style-type: lower-latin;
+  -webkit-animation: moveDown 1s ease-in-out forwards;
+          animation: moveDown 1s ease-in-out forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  opacity: 0;
+}
+section .alt-bilgi {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-left: 8em;
+  -webkit-animation: moveDown 1s ease-in-out forwards;
+          animation: moveDown 1s ease-in-out forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  opacity: 0;
 }
 
 .open-nav {
@@ -302,7 +247,7 @@ footer ul {
 }
 @-webkit-keyframes moveDown {
   from {
-    transform: translateY(-100px);
+    transform: translateY(-50px);
   }
   to {
     transform: translateY(0);
@@ -311,10 +256,10 @@ footer ul {
 }
 @keyframes moveDown {
   from {
-    transform: translateY(-100px);
+    transform: translateY(-50px);
   }
   to {
     transform: translateY(0);
     opacity: 1;
   }
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=referanslar.css.map */
