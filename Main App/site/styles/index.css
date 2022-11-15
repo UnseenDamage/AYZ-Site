@@ -94,6 +94,7 @@ header svg {
   font-weight: bold;
   display: inline-block;
   margin-left: 4em;
+  transition: color 0.7s ease-in-out;
 }
 .as_iletisim:hover {
   background: var(--white);

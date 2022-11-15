@@ -106,6 +106,7 @@ header {
     font-weight: bold;
     display: inline-block;
     margin-left: 4em;
+    transition: color .7s ease-in-out;
 
     &:hover {
         background: var(--white);
