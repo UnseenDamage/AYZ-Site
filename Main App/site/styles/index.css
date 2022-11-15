@@ -43,13 +43,20 @@ a {
   border: 3px solid #f1f1f1;
   border-radius: 0.3em;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 40%;
   padding: 20px;
   text-align: center;
+}
+
+.logo-is {
+  width: 200px;
+  position: absolute;
+  left: 40%;
+  top: 60%;
 }
 
 .company-logo {
